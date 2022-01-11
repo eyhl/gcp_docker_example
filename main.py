@@ -1,5 +1,5 @@
 '''
-Yo this script is missing a docstring! New try
+Yo this script is missing a docstring! New try! Now in the correct e-mail adress!
 '''
 
 from sklearn import datasets, svm, metrics
