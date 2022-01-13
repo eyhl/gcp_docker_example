@@ -10,6 +10,7 @@ steps:
          '-t',
          'gcr.io/linear-rig-337909/group5_proj_cpu_container', 
          '.']
+  secretEnv: ['SECRET_KEY']
 - name: 'gcr.io/cloud-builders/docker'
   args: ['push', 'gcr.io/linear-rig-337909/group5_proj_cpu_container']
 availableSecrets:
