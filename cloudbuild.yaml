@@ -6,7 +6,7 @@ steps:
 - name: 'gcr.io/cloud-builders/docker'
   args: ['build',
          '--build-arg',
-         'KEY=$$SECRET_KEY',
+         'YOUR_API_KEY=$$SECRET_KEY',
          '-t',
          'gcr.io/linear-rig-337909/group5_proj_cpu_container', 
          '.']
