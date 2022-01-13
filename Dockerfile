@@ -66,8 +66,7 @@ WORKDIR /root/project
 
 # Copies relevant files
 COPY entrypoint.sh /root/project/entrypoint.sh
-COPY vars.env /root/project/vars.env
-RUN echo $KEY
+
 ENV PYTHONPATH "${PYTHONPATH}:/root/project"
 
 ARG YOUR_API_KEY=local
